@@ -7,11 +7,11 @@
  //* Adesso realizziamo una stampa per la console, i numeri da 1 a 100:
 
  for ( let i = 1; i <= 100 ; i++){
-    console.log(i)
 
 //per i multipli di 3 stampi “Fizz” al posto del numero
-    if (i % 3 == 0) 
-    console.log("Fizz");
+    if (i % 3 == 0) console.log("Fizz");
+    else console.log(i)
+
  }
 
     //*const wrapperElement = document.querySelector('my_wrapper')
