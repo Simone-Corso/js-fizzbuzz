@@ -10,8 +10,9 @@
 
 //per i multipli di 3 stampi “Fizz” al posto del numero
     if (i % 3 == 0) console.log("Fizz");
+    if (i % 5 == 0) console.log("Buzz");
     else console.log(i)
-
+    
  }
 
     //*const wrapperElement = document.querySelector('my_wrapper')
