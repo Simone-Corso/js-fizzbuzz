@@ -8,6 +8,10 @@
 
  for ( let i = 1; i <= 100 ; i++){
     console.log(i)
+
+//per i multipli di 3 stampi “Fizz” al posto del numero
+    if (i % 3 == 0) 
+    console.log("Fizz");
  }
 
     //*const wrapperElement = document.querySelector('my_wrapper')
